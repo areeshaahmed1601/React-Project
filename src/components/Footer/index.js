@@ -47,8 +47,6 @@ const Footer = () => {
 
                       <FooterLinkItems>
                         <FooterLinkTitle> Books and magzines </FooterLinkTitle>
-                            <FooterLink href="https://www.instagram.com/p/ByYsKFRA1aK/
-			https://www.instagram.com/p/B3I-WemgCQn/" target="_blank">book 1</FooterLink>
                             <FooterLink  href="https://www.instagram.com/p/B45wptLgtzA/" target="_blank">Life in lagos nigeria</FooterLink>
                            
                       </FooterLinkItems>

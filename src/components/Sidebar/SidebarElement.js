@@ -60,28 +60,13 @@ curson:pointer;
     color:#01bf71;
     transition:0.2s ease-in-out;
 }
-`
-export const SideBtnWrap=styled.div`
-display:flex;
-justify-content:center;
-`
 
-export const SidebarRoute=styled(LinkR)`
-border-radius:50%;
-background:#01bf71;
-white-space:nowrap;
-padding:16px 64px;
-color:#010606;
-font-size:16px;
-outline:none;
-border:none;
-cursor:pointer;
-transition:all 0.2s ease-in-out;
-text-decoration:none;
-
-&:hover{
-    transition:all 0.2s ease-in-out;
-    background:#fff;
-    color:#010606;
+.links{
+    text-decoration:none;
+    list-style:none;
+    color:#fff;
+    font-wight:bold;
+    letter-spacing:1px;
+    line-height:1;
 }
 `

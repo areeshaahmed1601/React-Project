@@ -12,7 +12,7 @@ import {
   
 } from './NavbarElement'
 
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle,}) => {
     const [scrollNav,setScrollNav]=useState(false)
 
     const changeNav=()=>{
@@ -29,25 +29,25 @@ const Navbar = ({toggle}) => {
   return (
     <>
      <Nav scrollNav={scrollNav}>
-         <NavbarContainer>
+         <NavbarContainer >
              <NavLogo to='/'>
                  Namrata Agarwal
              </NavLogo>
              <MobileIcon onClick={toggle}>
                  <FaBars/>
              </MobileIcon>
-             <NavMenu>
+             <NavMenu >
              <NavItem>
-                     <NavLinks ><Link to={'/'}>Home</Link></NavLinks>
+                     <NavLinks ><Link className='links' to={'/'}>Home</Link></NavLinks>
                  </NavItem>
                  <NavItem>
-                     <NavLinks ><Link to={'/footer'}>About</Link></NavLinks>
+                     <NavLinks ><Link className='links' to={'/footer'}>About</Link></NavLinks>
                  </NavItem>
                  <NavItem>
-                     <NavLinks><Link to={'/books'}>Books</Link></NavLinks>
+                     <NavLinks><Link  className='links' to={'/books'}>Books</Link></NavLinks>
                  </NavItem>
                  <NavItem>
-                     <NavLinks><Link to ={'/footer'}>Contact</Link></NavLinks>
+                     <NavLinks><Link className='links' to ={'/footer'}>Contact</Link></NavLinks>
                  </NavItem>
              </NavMenu>
          

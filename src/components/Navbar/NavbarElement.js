@@ -57,7 +57,7 @@ display:none;
 }
 `
 
-export const NavMenu=styled.div`
+export const NavMenu=styled.ul`
 display:flex;
 align-items:center;
 list-style:none;
@@ -87,8 +87,18 @@ font-weight:bold;
 
 &:active{
     border-bottom:3px solid #01bf71;
-   
+
 }
+
+.links{
+    text-decoration:none;
+    list-style:none;
+    color:#fff;
+    font-wight:bold;
+    letter-spacing:1px;
+    line-height:1;
+}
+   
 `
 export const NavBtn=styled.nav`
 display:flex;
